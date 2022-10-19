@@ -1,0 +1,285 @@
+* { 
+  padding: 0 ;
+  margin: 0 auto; 
+ }
+ 
+ html{
+ 	 width: 1200px;
+ 	 height: 975px;
+ }
+
+input{
+	
+	height: 28px;
+	width: 270px;
+	border-radius: 15px;
+	margin-top: 35px;
+	border: 0.0625rem;
+	outline: none;
+	opacity: 0.5;
+	position: absolute;
+	text-indent: 2em;
+	
+}
+
+h1 a{
+	color: #00BFFF;
+}
+
+li{
+	list-style-type: none;
+	font-size: 30px;
+	font-family: "楷体";
+	text-align: center;
+	margin-top: 4px;
+	
+}
+
+ .page { 
+ position: absolute; 
+ width: 1200px; 
+ height: 975px; 
+ } 
+
+/* 列表 */
+#list{
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	top: 200px;
+	margin-left: 80px;
+	text-align: center;
+}
+#listdown ul{
+	display: none;
+}
+
+#listdown ul li{
+	list-style: none;
+	list-style-position: initial;
+	height: auto;
+	color: #000000;	
+}
+
+#Click{
+	text-decoration: none;
+	text-shadow: #878787 5px 5px;
+}
+
+/* 页头 */
+ .header { 
+ width: 100%; 
+ height: 100px; 
+ background: deepskyblue; 
+ position: absolute; 
+ } 
+ 
+ .colorsou{
+	background-color: rgba(23, 163, 51, 0.5);
+}
+  
+ .title { 
+ font-size: 60px; 
+ font-family: "微软雅黑";
+ color: white; 
+ float: left; 
+ margin: 7px 30px; 
+ } 
+  
+  .earch { 
+ float: right; 
+ width: 90px; 
+ margin: 3px 10px; 
+ border-color: #000000;
+ } 
+ 
+ .search { 
+ float: right; 
+ width: 70px; 
+ margin: 30px 5px; 
+ } 
+  
+ 
+ .musicBox{ 
+ width: 100%; 
+ position: absolute; 
+ top: 100px; 
+ bottom: 90px; 
+ background: url(../img/16.jpg);
+ background-size:100% 100%; 
+ /*内容超出范围部分滚动*/ 
+ /* overflow: scroll; */
+   opacity:0.4;
+   z-index: -9999;
+ } 
+ /*设置footer 的样式*/ 
+ .footer{ 
+ width: 100%; 
+ height: 90px; 
+ position: absolute; 
+ bottom: 0px; 
+ background: deepskyblue; 
+ } 
+
+ .pic{ 
+ width: 100px; 
+ height: 100px; 
+ position: absolute; 
+ left: 20px; 
+ top: -5px; 
+ border-radius: 15px; 
+ animation: picAn 3s infinite linear; 
+   
+ } 
+ @keyframes picAn{ 
+ from{} 
+ to{transform: rotate(360deg);} 
+ } 
+ 
+ #fanhui a{
+ 	text-decoration: none;
+ 	color: rgba(0, 0, 255, 0.5);
+ }
+ 
+ #fanhui{
+ 	float: right;
+ 	border-radius: 10px;
+ 	width: 100px;
+ 	height: 30px;
+ 	background-color: #00BFFF;
+ 	margin-top: 25px;
+ 	margin-right: 50px;
+ }
+ 
+ /*控制按钮的样式*/ 
+ #play{ 
+ width: 70px; 
+ height: 70px; 
+ position: absolute; 
+ left: 280px; 
+ top: 1px; 
+  border-radius: 15px;
+ background-color: rgba(0, 191, 255, 1.0);
+ } 
+ #play img{
+	 width: 25px;
+	 height: 25px;
+ }
+ #pre{ 
+ width: 70px; 
+ height: 70px; 
+ position: absolute; 
+ left: 200px; 
+ top: 1px;  
+ border-radius: 15px;
+ background-color: rgba(0, 191, 255, 1.0);
+ } 
+ #pre img{
+	 width: 30px;
+	 height: 30px;
+ }
+ #pause{
+ width: 70px;
+ height: 70px; 
+ position: absolute; 
+ left: 280px; 
+ top: 1px; 
+	 border-radius: 15px;
+	 background-color: rgba(0, 191, 255, 1.0);
+ }
+ #pause img{
+	 
+	 width: 30px;
+	 height: 30px;
+ }
+ #next{ 
+ width: 70px; 
+ height: 70px; 
+ position: absolute; 
+ left: 360px; 
+ top: 1px; 
+  border-radius: 15px;
+ background-color: rgba(0, 191, 255, 1.0);
+ } 
+ #next img{
+	 width: 30px;
+	 height: 30px;
+ }
+ #love{ 
+ width: 70px; 
+ height: 70px; 
+ position: absolute; 
+ left: 440px; 
+ top: 1px; 
+ border-radius: 15px;
+ background-color: rgba(0, 191, 255, 1.0);
+ } 
+ #love img{
+	 width: 35px;
+	 height: 35px;
+ }
+ .musicControls{ 
+ position: absolute; 
+ width: 30%; 
+ left: 20%; 
+ top: 10px; 
+ } 
+		/*背景图片*/
+		#music {
+			width: 500px;
+			height: 500px;
+			top: 10px;
+			right: 350px;
+			border-radius: 10px;
+			position: absolute;
+			background: url(./image/一月，银装轻舞-紫竹笛韵.jpg) no-repeat;
+			background-size: cover;
+			text-align: center;
+		}
+		#container {
+			position: absolute;
+			left: 0;
+		    right: 0;
+		    top: 0;
+		    bottom: 0;
+		    width: 1000px;
+		    height: 1000px;
+		    text-align: center;
+		}
+		#musicImg {
+			width: 470px;
+			height: 470px;
+			margin-top: 60px;
+			border-radius: 50%;
+			 
+			
+		}
+		@keyframes musicImgAn{
+		from{transform: rotate(0deg);} 
+		to{transform: rotate(360deg);} 
+		} 
+		.stop{
+			animation: musicImgAn 20s infinite linear;
+			animation-play-state: paused;
+		}
+		.pause{
+			animation-play-state: paused;
+		}
+		.running{
+			animation-play-state: running;
+			animation: musicImgAn 20s infinite linear;
+		}
+		audio {
+			display: block;
+			margin: 80px auto;
+			width: 520px;
+			margin-top: 80px;
+			opacity: 0.5;
+		}
+		#musicName {
+			padding-top: 130px;
+			line-height: 30px;
+			color: #736f85;
+			font-family: "微软雅黑";
+			font-size: 40px;
+		}

@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	
+	height: 100%;
+}
+
+body{
+	background-image: url(../img/3.jpg);
+	background-size: 100%;
+}
+
+#dll{
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin-top: -20px;
+}
+
+.wrap {
+	margin-top: 300px;
+	height: 380px;
+	width: 100;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.wrap .logGet {
+	height: 408px;
+	width: 368px;
+	margin: 0 auto;
+	background-color:rgba(255,255,255,0.5);
+}
+.wrap .logC a button {
+	width: 100%;
+	height: 45px;
+	background-color: rgba(0, 170, 255, 0.7);
+	border: none;
+	color: white;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.wrap .logGet .logD.logDtip p{
+	display: inline-block;
+	font-size: 30px;
+	color: rgba(0, 0, 255, 0.4);
+	margin-top: 50px;
+	width: 100%;
+	text-align: left;
+}
+.wrap .logGet .logD.logDtip {
+	width: 86%;
+	border-bottom: 1px solid #ee7700;
+	margin-bottom: 60px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.wrap .logGet .lgD img {
+	position: absolute;
+	top: 12px;
+	left: 8px;
+}
+.wrap .logGet .lgD input {
+	width: 100%;
+	height: 42px;
+	text-indent: 2.5rem;
+}
+.wrap .logGet .lgD {
+	width: 86%;
+	position: relative;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;}
+.wrap .logGet .logC {
+	width: 86%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.lgD input{
+	outline: none;
+	border-radius: 20px;
+	border: 0;
+
+}
+
+

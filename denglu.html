@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./css/denglu.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="./jq/jquery-3.1.1.min.js"></script>
+    <meta charset="utf-8" />
+    <title>login</title>
+  </head>
+
+  <body>
+    <div id="header"></div>
+    <div class="content">
+      <div class="wrap">
+        <div class="logGet">
+          <!-- 头部提示信息 -->
+          <div class="logD logDtip">
+            <p>
+              <img
+                id="dll"
+                src="img/src=http___img1.doubanio.com_view_group_topic_raw_public_p231036537.jpg&refer=http___img1.doubanio.gif"
+              />我的音乐登录
+            </p>
+          </div>
+          <!-- 输入框 -->
+          <div class="lgD">
+            <img src="img/111.png" width="20" height="20" alt="" />
+            <input type="text" placeholder="输入用户名" id="sou" />
+          </div>
+          <div class="lgD">
+            <img src="img/20.png" width="20" height="20" alt="" />
+            <input type="text" placeholder="输入用户密码" />
+          </div>
+          <div class="logC">
+            <a href="index.html"><button id="denglu">登 录</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      $("#denglu").mouseup(function () {
+        $(this).css("background-color", "rgba(0, 170, 255, 0.7)");
+      });
+      $("#denglu").mousedown(function () {
+        $(this).css("background-color", "rgba(0, 0, 255, 0.7)");
+      });
+
+      $("#denglu").click(function () {
+        alert("登录成功！");
+        alert("切记单击一年之歌收起列表，双击一年之歌展开列表!!!");
+      });
+    </script>
+  </body>
+</html>
